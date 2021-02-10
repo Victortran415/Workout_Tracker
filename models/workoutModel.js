@@ -24,6 +24,9 @@ const exerciseSchema = new Schema({
 			reps: {
 				type: Number,
 			},
+			distance: {
+				type: Number,
+			},
 			duration: {
 				type: Number,
 			},
@@ -37,4 +40,4 @@ const exerciseSchema = new Schema({
 
 const Workout = mongoose.model("Workout", exerciseSchema);
 
-module.exports = Workout
+module.exports = Workout;
