@@ -8,12 +8,10 @@ const exerciseSchema = new Schema({
 			name: {
 				type: String,
 				trim: true,
-				require: "Enter the exercise you are doing",
 			},
 			type: {
 				type: String,
 				trim: true,
-				require: "Enter what type of exercise you are doing",
 			},
 			weight: {
 				type: Number,
