@@ -33,6 +33,9 @@ Victor Tran
 
 ## Tests
 
+<img src= "public/img/workout.gif" style="width: 600px">
+
+
 ## Questions?
 Github: Victortran415
 
