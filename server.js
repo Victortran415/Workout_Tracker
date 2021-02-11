@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
 const app = express();
+const router = require("./routes/apiRoutes.js");
 
 //PORT
 const PORT = process.env.PORT || 8080;
@@ -18,9 +19,8 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//ROUTES
-require("./routes/htmlRoutes")(app);
-require("./routes/apiRoutes")(app);
+app.use(router);
+require("./routes/htmlRoutes.js")(app);
 
 app.listen(PORT, () => {
 	console.log(`Running on port http://localhost:${PORT}`);
