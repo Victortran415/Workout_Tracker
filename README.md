@@ -3,7 +3,7 @@
 ## Description:
 This is an Workout application that can help users track their daily progress. Users will be able to log their current workouts and update if more exercises are needed to be added. Users can view how long they worked out or see how heavy their lifted and ran in the past. 
 
-Heroku Deployment:
+Heroku Deployment: https://fwt-fitness-workout-tracker.herokuapp.com
 
 ## Time of Contents
   - [Installation](#installation)
