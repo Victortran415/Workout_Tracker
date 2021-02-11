@@ -23,6 +23,10 @@ To create this application, you would have to run `npm install` which will provi
 
 ## Usage:
 Steps provided to use this Workout Tracker App:
+- First clone the rep, if you do not have node_modules make sure to check [Installation](#installation).
+- Run node server.js
+- Open localhost from browser then play around with the application.
+  - Add your exercises and view dashboard for your stats
 
 
 ## License
